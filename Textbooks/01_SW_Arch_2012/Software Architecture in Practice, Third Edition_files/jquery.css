@@ -1,0 +1,276 @@
+/* START UTILITIES */
+/* END utilities */
+.review-modal-container.fade, .review-modal-container.fade div.review-modal {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s linear,top 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear,top 0.3s ease-out;
+  transition: opacity 0.3s linear,top 0.3s ease-out; }
+.review-modal-container.fade div.review-modal {
+  top: 10%; }
+
+.results-list .rating-container {
+  float: right;
+  margin-top: 12px;
+  margin-right: 15px; }
+  .results-list .rating-container .rating > img {
+    width: 19px; }
+  .results-list .rating-container .open-reviews {
+    display: block;
+    margin-top: -2px;
+    text-align: center; }
+
+.review-stars button {
+  padding: 0;
+  border: none;
+  background: none;
+  text-shadow: none;
+  -webkit-appearance: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: 0 0 0 black;
+  -webkit-box-shadow: 0 0 0 black;
+  -o-box-shadow: 0 0 0 black;
+  box-shadow: 0 0 0 black; }
+  .no-touch .review-stars button:focus, .no-touch .review-stars button:hover {
+    background: none; }
+  .review-stars button:active {
+    top: 0; }
+  @media screen and (min-width: 50.6875em) {
+    .review-stars button {
+      display: block !important; } }
+
+.plain-txt-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  text-shadow: none;
+  -webkit-appearance: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: 0 0 0 black;
+  -webkit-box-shadow: 0 0 0 black;
+  -o-box-shadow: 0 0 0 black;
+  box-shadow: 0 0 0 black;
+  color: #7f7f7f;
+  font-size: 16px; }
+  .no-touch .plain-txt-btn:focus, .no-touch .plain-txt-btn:hover {
+    background: none; }
+  .plain-txt-btn:active {
+    top: 0; }
+  .plain-txt-btn:hover, .plain-txt-btn:focus {
+    color: #e98300 !important; }
+
+.review-stars.rateit .rateit-range,
+.review-stars.rateit .rateit-selected,
+.review-stars.rateit .rateit-hover,
+.review-rating.rateit .rateit-range,
+.review-rating.rateit .rateit-selected,
+.review-rating.rateit .rateit-hover,
+.editor.rateit .rateit-range,
+.editor.rateit .rateit-selected,
+.editor.rateit .rateit-hover {
+  height: 21px !important;
+  background-size: 21px 21px !important;
+  cursor: pointer; }
+.review-stars.rateit .rateit-range,
+.review-rating.rateit .rateit-range,
+.editor.rateit .rateit-range {
+  background: url("/static/images/rateit/star-off.png");
+  width: 105px !important;
+  overflow: hidden; }
+.review-stars.rateit .rateit-hover,
+.review-stars.rateit .rateit-selected,
+.review-rating.rateit .rateit-hover,
+.review-rating.rateit .rateit-selected,
+.editor.rateit .rateit-hover,
+.editor.rateit .rateit-selected {
+  background: url("/static/images/rateit/star-on.png"); }
+.review-stars.rateit.you-reviewed .rateit-selected,
+.review-stars.rateit.you-reviewed .rateit-hover,
+.review-rating.rateit.you-reviewed .rateit-selected,
+.review-rating.rateit.you-reviewed .rateit-hover,
+.editor.rateit.you-reviewed .rateit-selected,
+.editor.rateit.you-reviewed .rateit-hover {
+  background: url("/static/images/rateit/star-active.png"); }
+
+div.review-modal {
+  position: absolute;
+  width: 760px;
+  top: 0%;
+  left: 50%;
+  margin-left: -380px;
+  background: #FFF;
+  border: 1px solid #dddddd;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 3px 0 #e6e6e6;
+  -webkit-box-shadow: 0 3px 0 #e6e6e6;
+  -o-box-shadow: 0 3px 0 #e6e6e6;
+  box-shadow: 0 3px 0 #e6e6e6;
+  z-index: 999;
+  opacity: 0; }
+  div.review-modal .hidden {
+    opacity: 0;
+    display: none; }
+  div.review-modal h4 {
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 16px; }
+  @media (max-width: 768px) {
+    div.review-modal {
+      width: 95%;
+      left: 2.5%;
+      margin-left: 0; } }
+  div.review-modal > header {
+    position: relative;
+    padding: 10px 16px 5px;
+    border-bottom: 1px solid #DDD; }
+    div.review-modal > header .title {
+      display: block;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.5em;
+      width: calc(100% - 30px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #666;
+      margin-bottom: 0.5em; }
+    div.review-modal > header .review-editor {
+      margin-top: 20px; }
+      div.review-modal > header .review-editor .editor-rate-title {
+        margin-bottom: 10px; }
+        div.review-modal > header .review-editor .editor-rate-title button {
+          display: none !important; }
+        div.review-modal > header .review-editor .editor-rate-title .rating {
+          margin-left: 3px; }
+          div.review-modal > header .review-editor .editor-rate-title .rating > img {
+            width: 30px;
+            vertical-align: bottom; }
+      div.review-modal > header .review-editor .editor-review-body {
+        width: 100%;
+        max-width: 100%;
+        border: 1px solid #CCC;
+        background-color: #FFF;
+        resize: none; }
+      div.review-modal > header .review-editor .editor-controls {
+        position: relative;
+        margin-top: 5px; }
+        div.review-modal > header .review-editor .editor-controls .cancel-review {
+          margin-left: 10px; }
+        div.review-modal > header .review-editor .editor-controls .editor-char-left {
+          position: absolute;
+          right: 0;
+          top: 10px;
+          color: #4a3c31; }
+    div.review-modal > header .close-review-modal {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 10px; }
+      div.review-modal > header .close-review-modal:before {
+        font-family: "SSFlow";
+        font-size: 14px;
+        content: '\2421';
+        color: #777777; }
+      div.review-modal > header .close-review-modal:hover {
+        text-decoration: none; }
+  div.review-modal .review-modal-content {
+    padding: 10px 16px;
+    overflow-y: auto; }
+    div.review-modal .review-modal-content .review-rating {
+      margin: 10px 0 -8px; }
+      div.review-modal .review-modal-content .review-rating > img {
+        width: 16px; }
+    div.review-modal .review-modal-content .review-comment {
+      margin-top: -10px; }
+    div.review-modal .review-modal-content ul {
+      margin-top: 10px; }
+      div.review-modal .review-modal-content ul > li {
+        margin-bottom: 25px; }
+    div.review-modal .review-modal-content p {
+      font-size: 16px;
+      font-weight: 300; }
+    div.review-modal .review-modal-content .your-review {
+      margin-bottom: 25px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #f5eee0; }
+      div.review-modal .review-modal-content .your-review .review-rating {
+        margin: 0;
+        display: inline-block;
+        position: relative;
+        top: 2px; }
+        div.review-modal .review-modal-content .your-review .review-rating:before {
+          content: "|";
+          color: #999;
+          margin: 0 10px 0;
+          position: relative;
+          top: -3px; }
+    div.review-modal .review-modal-content .review-by {
+      color: #666;
+      font-size: 14px;
+      margin-top: -10px; }
+      div.review-modal .review-modal-content .review-by button {
+        font-size: 14px;
+        margin-right: 10px; }
+      div.review-modal .review-modal-content .review-by .review-controls {
+        display: inline-block;
+        margin-left: 10px;
+        padding-left: 15px;
+        border-left: 1px solid #f5eee0; }
+        div.review-modal .review-modal-content .review-by .review-controls > a {
+          margin-right: 10px; }
+
+.rateit {
+  display: -moz-inline-box;
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none; }
+
+.rateit .rateit-range {
+  position: relative;
+  display: -moz-inline-box;
+  display: inline-block;
+  height: 16px;
+  outline: none; }
+
+.rateit .rateit-range * {
+  display: block; }
+
+/* for IE 6 */
+* html .rateit, * html .rateit .rateit-range {
+  display: inline; }
+
+/* for IE 7 */
+* + html .rateit, * + html .rateit .rateit-range {
+  display: inline; }
+
+.rateit .rateit-hover, .rateit .rateit-selected {
+  position: absolute;
+  left: 0px; }
+
+.rateit .rateit-hover-rtl, .rateit .rateit-selected-rtl {
+  left: auto;
+  right: 0px; }
+
+.rateit .rateit-hover-rtl {
+  background-position: right -32px; }
+
+.rateit .rateit-selected-rtl {
+  background-position: right -16px; }
+
+.rateit button.rateit-reset {
+  display: none; }
+
+.rateit button.rateit-reset:hover, .rateit button.rateit-reset:focus {
+  background-position: 0 -16px; }

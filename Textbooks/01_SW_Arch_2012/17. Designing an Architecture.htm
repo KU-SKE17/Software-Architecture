@@ -1,0 +1,1062 @@
+<!--[if IE]><![endif]-->
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#"
+
+    
+        itemscope itemtype="http://schema.org/Book http://schema.org/ItemPage"" data-login-url="/accounts/login/"
+data-offline-url="/"
+data-url="/library/view/software-architecture-in/9780132942799/ch10.html"
+data-csrf-cookie="csrfsafari"
+data-highlight-privacy=""
+
+
+  data-user-id="640574"
+  data-user-uuid="10f9e41b-1414-4ac1-bc80-973364aac808"
+  data-username="aejunknaja"
+  data-account-type="Trial"
+  
+  data-activated-trial-date="01/12/2016"
+  
+
+
+  data-archive="9780132942799"
+  data-publishers="Addison-Wesley Professional"
+
+
+
+  data-htmlfile-name="ch10.html"
+  data-epub-title="Software Architecture in Practice, Third Edition" data-debug=0 data-testing=0><![endif]-->
+<!--[if gt IE 8]><!-->
+<html style="" class=" js flexbox flexboxlegacy no-touch no-websqldatabase indexeddb history csscolumns csstransforms localstorage sessionstorage applicationcache svg inlinesvg no-zoom" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#" itemscope="" itemtype="http://schema.org/Book http://schema.org/ItemPage" "="" data-login-url="/accounts/login/" data-offline-url="/" data-url="/library/view/software-architecture-in/9780132942799/ch10.html" data-csrf-cookie="csrfsafari" data-highlight-privacy="" data-user-id="640574" data-user-uuid="10f9e41b-1414-4ac1-bc80-973364aac808" data-username="aejunknaja" data-account-type="Trial" data-activated-trial-date="01/12/2016" data-archive="9780132942799" data-publishers="Addison-Wesley Professional" data-htmlfile-name="ch10.html" data-epub-title="Software Architecture in Practice, Third Edition" data-debug="0" data-testing="0" lang="en"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="author" content="Safari Books Online"><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="apple-itunes-app" content="app-id=881697395, app-argument=safaridetail://9780132942799"><meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0"><meta property="twitter:account_id" content="4503599627559754"><script src="17.%20Designing%20an%20Architecture_files/510f1a6865" type="text/javascript"></script><script src="17.%20Designing%20an%20Architecture_files/nr-768.js"></script><script src="17.%20Designing%20an%20Architecture_files/linkid.js" async="" type="text/javascript"></script><script src="17.%20Designing%20an%20Architecture_files/analytics.js" async=""></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQQDUVVVGwACU1RUAQA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script><link rel="apple-touch-icon" href="https://www.safaribooksonline.com/static/images/apple-touch-icon.dc4dcf1f75e0.png"><link rel="shortcut icon" href="https://www.safaribooksonline.com/favicon.ico" type="image/x-icon"><link href="17.%20Designing%20an%20Architecture_files/css.css" rel="stylesheet" type="text/css"><title>17. Designing an Architecture - Software Architecture in Practice, Third Edition</title><link rel="stylesheet" href="17.%20Designing%20an%20Architecture_files/e4f5174e8e7b.css" type="text/css"><link rel="stylesheet" type="text/css" href="17.%20Designing%20an%20Architecture_files/annotator.css"><link rel="stylesheet" href="17.%20Designing%20an%20Architecture_files/font-awesome.css"><style type="text/css" title="ibis-book">#sbo-rt-content div{margin-top:4pt;margin-bottom:4pt;margin-right:15pt}#sbo-rt-content h1{margin-top:15pt;margin-bottom:12pt;text-align:center;font-weight:bold}#sbo-rt-content h2{margin-top:7pt;margin-bottom:25pt;text-align:left;font-weight:bold}#sbo-rt-content h3{margin-top:9pt;margin-bottom:8pt;font-weight:bold;text-align:left}#sbo-rt-content h4{margin-top:9pt;margin-bottom:6pt;text-align:left;font-weight:bold}#sbo-rt-content h5{margin-top:9pt;margin-bottom:6pt;font-weight:bold;text-align:left}#sbo-rt-content h6{margin-top:9pt;margin-bottom:6pt;font-weight:bold;text-align:left}#sbo-rt-content .cover{margin-top:2pt;margin-bottom:2pt;text-align:center}#sbo-rt-content .author{margin-top:40pt;font-weight:bold;text-align:center}#sbo-rt-content div.image,#sbo-rt-content img{max-width:99%;max-height:99%}#sbo-rt-content .image{margin-bottom:5pt;text-align:center}#sbo-rt-content .toc-part{margin-top:25pt;margin-bottom:5pt;margin-left:10pt;text-align:left}#sbo-rt-content .toc-chapter{margin-top:10pt;margin-bottom:5pt;margin-left:25pt;text-align:left}#sbo-rt-content .toc-chapter1{margin-top:10pt;margin-bottom:5pt;margin-left:18pt;text-align:left}#sbo-rt-content .toc-section{margin-top:4pt;margin-bottom:4pt;margin-left:55pt;text-align:left}#sbo-rt-content .indexmain{margin-top:2pt;margin-bottom:2pt;text-align:left}#sbo-rt-content .indexmain1{margin-top:18pt;margin-bottom:2pt;text-align:left}#sbo-rt-content .indexsub{margin-top:2pt;margin-bottom:2pt;margin-left:35pt;text-indent:-15pt;text-align:left}#sbo-rt-content .copy{margin-top:8pt;margin-bottom:8pt;text-indent:.024pt}#sbo-rt-content .indent{margin-top:4pt;margin-bottom:5pt;text-indent:18pt;text-align:left}#sbo-rt-content .indenthangingB{margin-top:4pt;margin-bottom:4pt;margin-left:40pt;text-indent:-7pt;text-align:left}#sbo-rt-content .indenthangingBB{margin-top:4pt;margin-bottom:4pt;margin-left:58pt;text-indent:-6.5pt;text-align:left}#sbo-rt-content .indenthangingBBB{margin-top:4pt;margin-bottom:4pt;margin-left:80pt;text-indent:-6pt;text-align:left}#sbo-rt-content .indenthangingBP{margin-top:4pt;margin-bottom:4pt;margin-left:40pt;text-align:left}#sbo-rt-content .indenthangingBP1{margin-top:4pt;margin-bottom:4pt;margin-left:30pt;text-indent:15pt;text-align:left}#sbo-rt-content .tab-caption{font-weight:bold;margin-top:14pt;margin-bottom:8pt;text-align:center;page-break-after:avoid;page-break-inside:avoid}#sbo-rt-content .source{font-size:medium;margin-top:2pt;margin-bottom:2pt;page-break-before:avoid;page-break-inside:avoid;text-align:center}#sbo-rt-content .fig-caption{font-weight:bold;margin-top:4pt;margin-bottom:14pt;text-align:center;page-break-before:avoid;page-break-inside:avoid}#sbo-rt-content .fig-caption2{font-weight:bold;margin-top:4pt;margin-bottom:14pt;text-align:left;page-break-before:avoid;page-break-inside:avoid}#sbo-rt-content .blockquote{margin-top:7pt;margin-bottom:2pt;margin-left:60pt;text-align:left}#sbo-rt-content .attribution{margin-top:2pt;margin-bottom:17pt;margin-right:40pt;text-align:right}#sbo-rt-content .attribution1{margin-top:2pt;margin-bottom:17pt;margin-right:15pt;text-align:right}#sbo-rt-content .attri{margin-left:100pt;margin-right:100pt}#sbo-rt-content .toc-preface{margin-top:5pt;margin-bottom:5pt;margin-left:65pt;text-align:left}#sbo-rt-content .toc-appendix{margin-top:10pt;margin-bottom:5pt;margin-left:55pt;text-align:left}#sbo-rt-content .toc-index{margin-top:10pt;margin-bottom:5pt;margin-left:55pt;text-align:left}#sbo-rt-content .bib{margin-top:10pt;margin-bottom:5pt;margin-left:15pt;text-align:left}#sbo-rt-content .footnote{font-size:small;margin-top:4pt;margin-bottom:4pt;margin-left:20pt;text-indent:-11pt;text-align:left}#sbo-rt-content .pre{font-family:"Courier New";font-size:small;margin-top:5pt;margin-bottom:5pt;margin-left:13pt}#sbo-rt-content .pre1{font-family:"Courier New";font-size:small;margin-top:5pt;margin-bottom:5pt;margin-left:25pt}#sbo-rt-content .codelink{font-size:small;margin-top:6pt;margin-bottom:6pt;font-weight:bold;page-break-after:avoid}#sbo-rt-content .image1{text-align:center;page-break-before:always}#sbo-rt-content div.image1,#sbo-rt-content img{max-width:99%;max-height:99%}#sbo-rt-content code{font-size:small}#sbo-rt-content .edition{font-size:15pt;margin-top:15pt;margin-bottom:15pt;text-align:center;font-weight:bold}#sbo-rt-content .equation{text-align:center}#sbo-rt-content .indenthangingN{margin-top:4pt;margin-bottom:4pt;margin-left:50pt;text-indent:-12pt;text-align:left}#sbo-rt-content .indenthangingNaa{margin-top:4pt;margin-bottom:4pt;margin-left:48pt;text-indent:-11pt;text-align:left}#sbo-rt-content .indenthangingNP1{margin-top:4pt;margin-bottom:4pt;margin-left:30pt;text-align:left}#sbo-rt-content .indenthangingNP{margin-top:4pt;margin-bottom:4pt;margin-left:30pt;text-indent:15pt;text-align:left}#sbo-rt-content .indenthangingN1{margin-top:4pt;margin-bottom:4pt;margin-left:50pt;text-indent:-17.5pt;text-align:left}#sbo-rt-content .indenthangingNB{margin-top:4pt;margin-bottom:4pt;margin-left:75pt;text-indent:-7.5pt;text-align:left}#sbo-rt-content .noindent{margin-top:4pt;margin-bottom:4pt;text-indent:.02pt}#sbo-rt-content .publisher{margin-top:130pt;margin-bottom:2pt;text-align:center}#sbo-rt-content .publishertext{margin-top:6pt;margin-bottom:2pt;text-align:center}#sbo-rt-content .sidebar{font-size:medium;margin-top:6pt;margin-bottom:12pt;margin-left:24pt;margin-right:24pt}#sbo-rt-content .sb-noindent{margin-top:4pt;margin-bottom:4pt;text-indent:.02pt;margin-left:15pt;margin-right:15pt}#sbo-rt-content .sb-indent{margin-top:4pt;margin-bottom:5pt;text-indent:15pt;margin-left:15pt;margin-right:15pt}#sbo-rt-content .title{font-size:110%;margin-top:4pt;margin-bottom:4pt;font-weight:bold;margin-left:7pt;page-break-inside:avoid;page-break-after:avoid}#sbo-rt-content .question{margin-top:4pt;margin-bottom:4pt;margin-left:30pt;text-indent:-12pt;text-align:left}#sbo-rt-content .questiona{margin-top:4pt;margin-bottom:4pt;margin-left:70pt;text-indent:-11.5pt;text-align:left}#sbo-rt-content .questionP{margin-top:4pt;margin-bottom:4pt;margin-left:30pt;text-align:left}#sbo-rt-content .step{margin-top:4pt;margin-bottom:4pt;margin-left:65pt;text-indent:-38pt;text-align:left}#sbo-rt-content .division{font-size:100%;margin-top:4pt;margin-bottom:4pt;font-weight:bold;margin-left:10pt}#sbo-rt-content .question1{margin-top:4pt;margin-bottom:4pt;margin-left:29pt;text-indent:-18pt;text-align:left}#sbo-rt-content .copy1{margin-top:8pt;margin-bottom:8pt;margin-left:24pt;text-align:left;text-indent:.024pt}#sbo-rt-content .copy2{margin-top:8pt;margin-bottom:8pt;font-size:140%;text-align:left;text-indent:.024pt}#sbo-rt-content .copy3{margin-top:8pt;margin-bottom:8pt;font-size:130%;text-align:left;text-indent:.024pt}#sbo-rt-content .imagefir{text-align:center}</style><link rel="canonical" href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch10.html"><meta name="description" content="10. Testability Testing leads to failure, and failure leads to understanding —Burt Rutan Industry estimates indicate that between 30 and 50 percent (or in some cases, even more) of the ... "><meta property="og:title" content="10. Testability"><meta itemprop="isPartOf" content="/library/view/software-architecture-in/9780132942799/"><meta itemprop="name" content="10. Testability"><meta property="og:url" itemprop="url" content="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch10.html"><meta property="og:site_name" content="Safari"><meta property="og:image" itemprop="thumbnailUrl" content="https://www.safaribooksonline.com/library/cover/9780132942799/"><meta property="og:description" itemprop="description" content="10. Testability Testing leads to failure, and failure leads to understanding —Burt Rutan Industry estimates indicate that between 30 and 50 percent (or in some cases, even more) of the ... "><meta itemprop="inLanguage" content="en"><meta itemprop="publisher" content="Addison-Wesley Professional"><meta property="og:type" content="book"><meta property="og:book:isbn" itemprop="isbn" content="9780132942799"><meta property="og:book:author" itemprop="author" content="Rick Kazman"><meta property="og:book:author" itemprop="author" content="Paul Clements"><meta property="og:book:author" itemprop="author" content="Len Bass"><meta property="og:book:tag" itemprop="about" content="Core Programming"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@safari"><style type="text/css" id="font-styles" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-size: &lt;%= font_size %&gt; !important; }"></style><style type="text/css" id="font-family" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-family: &lt;%= font_family %&gt; !important; }"></style><style type="text/css" id="column-width" data-template="#sbo-rt-content { max-width: &lt;%= column_width %&gt;% !important; margin: 0 auto !important; }"></style><!--[if lt IE 9]><script src="/static/js/src/respond.min.fa78ffe6f7ba.js"></script><![endif]--><script type="text/javascript" src="17.%20Designing%20an%20Architecture_files/ecc99425e988.js" async=""></script><noscript><meta http-equiv="refresh" content="0; url=/library/no-js/" /></noscript><script type="text/javascript">
+  (function(i,s,o,g,r,a,m) {
+    i['GoogleAnalyticsObject']=r;
+    i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+    a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+    a.async=1;
+    a.src=g;
+    m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  var matches = document.cookie.match(/BrowserCookie\s*=\s*([a-f0-9\-]{36})/),
+      user_uuid = null;
+
+  if (matches && matches.length === 2) {
+    user_uuid = matches[1];
+  }
+
+
+  ga('create', 'UA-39299553-7', {'userId': '10f9e41b-1414-4ac1-bc80-973364aac808' });
+
+
+ga('set', 'dimension1', 'Trial');
+ga('set', 'dimension6', user_uuid);
+
+
+  ga('set', 'dimension2', '10f9e41b-1414-4ac1-bc80-973364aac808');
+  
+
+
+
+
+  //enable enhanced link tracking
+  ga('require', 'linkid', 'linkid.js');
+
+  // reading interface will track pageviews itself
+  if (document.location.pathname.indexOf("/library/view") !== 0) {
+    ga('send', 'pageview');
+  }
+</script><script src="17.%20Designing%20an%20Architecture_files/_config.js" data-requiremodule="/static/js/pages/_config.1113c6153f5e.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="17.%20Designing%20an%20Architecture_files/_init.js" data-requiremodule="/static/js/nest/_init.1198db94d0a6.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><style id="annotator-dynamic-style">.annotator-adder, .annotator-outer, .annotator-notice {
+  z-index: 100019;
+}
+.annotator-filter {
+  z-index: 100009;
+}</style></head>
+
+
+<body class="reading sidenav  js-show-related scalefonts subscribe-panel library nav-collapsed">
+
+    
+      <div class="hide working" role="status">
+        <div class="working-image"></div>
+      </div>
+      <div class="sbo-site-nav">
+        
+
+
+
+<a href="#container" class="skip">Skip to content</a><header class="topbar t-topbar"><nav role="navigation" class="js-site-nav"><ul class="topnav"><li class="logo t-logo"><a href="https://www.safaribooksonline.com/home/" class="l0 safari js-keyboard-nav-home"><em>Safari</em></a></li><li><a href="https://www.safaribooksonline.com/r/" class="t-recommendations-nav l0 ss-picks None"><span>Recommended</span></a></li><li><a href="https://www.safaribooksonline.com/s/" class="t-queue-nav l0 ss-queue None"><span>Queue</span></a></li><li class="search"><a href="#" class="t-search-nav trigger ss-search l0" data-dropdown-selector=".searchbox"><span>Search</span></a></li><li class="usermenu dropdown"><a href="#" class="trigger l0 ss-navigatedown nav-dropdown"><span>Expand Nav</span></a><div class="drop-content"><ul><li><a href="https://www.safaribooksonline.com/recent/" class="t-recent-nav l1 ss-recent None">Recent</a></li><li><a href="https://www.safaribooksonline.com/topics" class="t-topics-link l1 ss-hexbase None">Topics</a></li><li><a href="https://www.safaribooksonline.com/tutorials/" class="l1 ss-toots t-tutorials-nav js-toggle-menu-item None"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" version="1.1"><title>icon for tutorials
+  </title><desc></desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M15.8 18.2C15.8 18.2 15.9 18.2 16 18.2 16.1 18.2 16.2 18.2 16.4 18.2 16.5 18.2 16.7 18.1 16.9 18 17 17.9 17.1 17.8 17.2 17.7 17.3 17.6 17.4 17.5 17.4 17.4 17.5 17.2 17.6 16.9 17.6 16.7 17.6 16.6 17.6 16.5 17.6 16.4 17.5 16.2 17.5 16.1 17.4 15.9 17.3 15.8 17.2 15.6 17 15.5 16.8 15.3 16.6 15.3 16.4 15.2 16.2 15.2 16 15.2 15.8 15.2 15.7 15.2 15.5 15.3 15.3 15.4 15.2 15.4 15.1 15.5 15 15.7 14.9 15.8 14.8 15.9 14.7 16 14.7 16.1 14.6 16.3 14.6 16.4 14.6 16.5 14.6 16.6 14.6 16.6 14.6 16.7 14.6 16.9 14.6 17 14.6 17.1 14.7 17.3 14.7 17.4 14.8 17.6 15 17.7 15.1 17.9 15.2 18 15.3 18 15.5 18.1 15.5 18.1 15.6 18.2 15.7 18.2 15.7 18.2 15.7 18.2 15.8 18.2L15.8 18.2ZM9.4 11.5C9.5 11.5 9.5 11.5 9.6 11.5 9.7 11.5 9.9 11.5 10 11.5 10.2 11.5 10.3 11.4 10.5 11.3 10.6 11.2 10.8 11.1 10.9 11 10.9 10.9 11 10.8 11.1 10.7 11.2 10.5 11.2 10.2 11.2 10 11.2 9.9 11.2 9.8 11.2 9.7 11.2 9.5 11.1 9.4 11 9.2 10.9 9.1 10.8 8.9 10.6 8.8 10.5 8.7 10.3 8.6 10 8.5 9.9 8.5 9.7 8.5 9.5 8.5 9.3 8.5 9.1 8.6 9 8.7 8.8 8.7 8.7 8.8 8.6 9 8.5 9.1 8.4 9.2 8.4 9.3 8.2 9.5 8.2 9.8 8.2 10 8.2 10.1 8.2 10.2 8.2 10.3 8.2 10.5 8.3 10.6 8.4 10.7 8.5 10.9 8.6 11.1 8.7 11.2 8.9 11.3 9 11.4 9.1 11.4 9.2 11.4 9.3 11.5 9.3 11.5 9.3 11.5 9.4 11.5 9.4 11.5L9.4 11.5ZM3 4.8C3.1 4.8 3.1 4.8 3.2 4.8 3.4 4.8 3.5 4.8 3.7 4.8 3.8 4.8 4 4.7 4.1 4.6 4.3 4.5 4.4 4.4 4.5 4.3 4.6 4.2 4.6 4.1 4.7 4 4.8 3.8 4.8 3.5 4.8 3.3 4.8 3.1 4.8 3 4.8 2.9 4.7 2.8 4.7 2.6 4.6 2.5 4.5 2.3 4.4 2.2 4.2 2.1 4 1.9 3.8 1.9 3.6 1.8 3.5 1.8 3.3 1.8 3.1 1.8 2.9 1.8 2.7 1.9 2.6 2 2.4 2.1 2.3 2.2 2.2 2.3 2.1 2.4 2 2.5 2 2.6 1.8 2.8 1.8 3 1.8 3.3 1.8 3.4 1.8 3.5 1.8 3.6 1.8 3.8 1.9 3.9 2 4 2.1 4.2 2.2 4.4 2.4 4.5 2.5 4.6 2.6 4.7 2.7 4.7 2.8 4.7 2.9 4.8 2.9 4.8 3 4.8 3 4.8 3 4.8L3 4.8ZM13.1 15.2C13.2 15.1 13.2 15.1 13.2 15.1 13.3 14.9 13.4 14.7 13.6 14.5 13.8 14.2 14.1 14 14.4 13.8 14.7 13.6 15.1 13.5 15.5 13.4 15.9 13.4 16.3 13.4 16.7 13.5 17.2 13.5 17.6 13.7 17.9 13.9 18.2 14.1 18.5 14.4 18.7 14.7 18.9 15 19.1 15.3 19.2 15.6 19.3 15.9 19.4 16.1 19.4 16.4 19.4 17 19.3 17.5 19.1 18.1 19 18.3 18.9 18.5 18.7 18.7 18.5 19 18.3 19.2 18 19.4 17.7 19.6 17.3 19.8 16.9 19.9 16.6 20 16.3 20 16 20 15.8 20 15.6 20 15.4 19.9 15.4 19.9 15.4 19.9 15.4 19.9 15.2 19.9 15 19.8 14.9 19.8 14.8 19.7 14.7 19.7 14.6 19.7 14.4 19.6 14.3 19.5 14.1 19.3 13.7 19.1 13.4 18.7 13.2 18.4 13.1 18.1 12.9 17.8 12.9 17.5 12.8 17.3 12.8 17.1 12.8 16.9L3.5 14.9C3.3 14.9 3.1 14.8 3 14.8 2.7 14.7 2.4 14.5 2.1 14.3 1.7 14 1.4 13.7 1.2 13.3 1 13 0.9 12.6 0.8 12.3 0.7 12 0.7 11.7 0.7 11.4 0.7 11 0.8 10.5 1 10.1 1.1 9.8 1.3 9.5 1.6 9.2 1.8 8.9 2.1 8.7 2.4 8.5 2.8 8.3 3.2 8.1 3.6 8.1 3.9 8 4.2 8 4.5 8 4.6 8 4.8 8 4.9 8.1L6.8 8.5C6.8 8.4 6.8 8.4 6.8 8.4 6.9 8.2 7.1 8 7.2 7.8 7.5 7.5 7.7 7.3 8 7.1 8.4 6.9 8.7 6.8 9.1 6.7 9.5 6.7 10 6.7 10.4 6.8 10.8 6.8 11.2 7 11.5 7.2 11.8 7.5 12.1 7.7 12.4 8 12.6 8.3 12.7 8.6 12.8 8.9 12.9 9.2 13 9.4 13 9.7 13 9.7 13 9.8 13 9.8 13.6 9.9 14.2 10.1 14.9 10.2 15 10.2 15 10.2 15.1 10.2 15.3 10.2 15.4 10.2 15.6 10.2 15.8 10.1 16 10 16.2 9.9 16.4 9.8 16.5 9.6 16.6 9.5 16.8 9.2 16.9 8.8 16.9 8.5 16.9 8.3 16.9 8.2 16.8 8 16.8 7.8 16.7 7.7 16.6 7.5 16.5 7.3 16.3 7.2 16.2 7.1 16 7 15.9 6.9 15.8 6.9 15.7 6.9 15.6 6.8 15.5 6.8L6.2 4.8C6.2 5 6 5.2 5.9 5.3 5.7 5.6 5.5 5.8 5.3 6 4.9 6.2 4.5 6.4 4.1 6.5 3.8 6.6 3.5 6.6 3.2 6.6 3 6.6 2.8 6.6 2.7 6.6 2.6 6.6 2.6 6.5 2.6 6.5 2.5 6.5 2.3 6.5 2.1 6.4 1.8 6.3 1.6 6.1 1.3 6 1 5.7 0.7 5.4 0.5 5 0.3 4.7 0.2 4.4 0.1 4.1 0 3.8 0 3.6 0 3.3 0 2.8 0.1 2.2 0.4 1.7 0.5 1.5 0.7 1.3 0.8 1.1 1.1 0.8 1.3 0.6 1.6 0.5 2 0.3 2.3 0.1 2.7 0.1 3.1 0 3.6 0 4 0.1 4.4 0.2 4.8 0.3 5.1 0.5 5.5 0.8 5.7 1 6 1.3 6.2 1.6 6.3 1.9 6.4 2.3 6.5 2.5 6.6 2.7 6.6 3 6.6 3 6.6 3.1 6.6 3.1 9.7 3.8 12.8 4.4 15.9 5.1 16.1 5.1 16.2 5.2 16.4 5.2 16.7 5.3 16.9 5.5 17.2 5.6 17.5 5.9 17.8 6.2 18.1 6.5 18.3 6.8 18.4 7.2 18.6 7.5 18.6 7.9 18.7 8.2 18.7 8.6 18.7 9 18.6 9.4 18.4 9.8 18.3 10.1 18.2 10.3 18 10.6 17.8 10.9 17.5 11.1 17.3 11.3 16.9 11.6 16.5 11.8 16 11.9 15.7 12 15.3 12 15 12 14.8 12 14.7 12 14.5 11.9 13.9 11.8 13.3 11.7 12.6 11.5 12.5 11.7 12.4 11.9 12.3 12 12.1 12.3 11.9 12.5 11.7 12.7 11.3 12.9 10.9 13.1 10.5 13.2 10.2 13.3 9.9 13.3 9.6 13.3 9.4 13.3 9.2 13.3 9 13.2 9 13.2 9 13.2 9 13.2 8.8 13.2 8.7 13.2 8.5 13.1 8.2 13 8 12.8 7.7 12.6 7.4 12.4 7.1 12 6.8 11.7 6.7 11.4 6.6 11.1 6.5 10.8 6.4 10.6 6.4 10.4 6.4 10.2 5.8 10.1 5.2 9.9 4.5 9.8 4.4 9.8 4.4 9.8 4.3 9.8 4.1 9.8 4 9.8 3.8 9.8 3.6 9.9 3.4 10 3.2 10.1 3 10.2 2.9 10.4 2.8 10.5 2.6 10.8 2.5 11.1 2.5 11.5 2.5 11.6 2.5 11.8 2.6 12 2.6 12.1 2.7 12.3 2.8 12.5 2.9 12.6 3.1 12.8 3.2 12.9 3.3 13 3.5 13.1 3.6 13.1 3.7 13.1 3.8 13.2 3.9 13.2L13.1 15.2 13.1 15.2Z" fill="currentColor"></path></g></svg><em>Tutorials</em></a></li><li class="nav-highlights"><a href="https://www.safaribooksonline.com/u/001o000000ijSMHAA2/" class="t-highlights-nav l1 ss-highlights None">Highlights</a></li><li><a href="https://www.safaribooksonline.com/u/" class="t-settings-nav l1 js-settings ss-settings None">Settings</a></li><li><a href="https://community.safaribooksonline.com/" class="l1 no-icon">Feedback</a></li><li><a href="https://www.safaribooksonline.com/accounts/logout/" class="l1 no-icon">Sign Out</a></li></ul><ul class="profile"><li><a href="https://www.safaribooksonline.com/u/" class="l2 None">Settings</a><span class="l2 t-nag-notification" id="nav-nag"><strong class="trial-green">10</strong> days left in your trial.
+  
+  
+
+  
+    
+      
+
+<a class="" href="https://www.safaribooksonline.com/subscribe/">Subscribe</a>.
+
+
+    
+  
+
+  
+
+</span></li><li><a href="https://community.safaribooksonline.com/" class="l2">Feedback</a></li><li><a href="https://www.safaribooksonline.com/accounts/logout/" class="l2">Sign Out</a></li></ul></div></li></ul></nav></header>
+
+
+      </div>
+      <div style="height: auto;" id="container" class="application">
+        
+          <div class="nav-container clearfix">
+            
+
+
+            
+            
+          </div>
+
+          
+
+  <div class="js-toc">
+    
+      <div class="sbo-reading-menu sbo-menu-top"><section class="sbo-toc-container toc-menu"><a href="#" class="sbo-toc-thumb"><span class="sbo-title ss-list"><h1><div class="visuallyhidden">Table of Contents for </div>
+      
+      Software Architecture in Practice, Third Edition
+      
+    </h1></span></a><div class="toc-contents"></div></section></div>
+
+    
+
+    <div class="interface-controls interface-controls-top">
+      <ul class="interface-control-btns js-bitlist js-reader">
+        <li class="js-search-in-archive search-in-archive t-search-in-archive"><a href="#" title="Search in archive" class="js-search-controls search-controls"><span class="icon">Search in book...</span></a><form class="search-archive-bar js-search-form"><input name="q" placeholder="Search inside this book..." autocomplete="off" type="search"></form><div class="js-search-results search-archive-results"></div></li><li class="queue-control"><button title="Add to Queue" aria-label="Add to Queue" data-for-analytics="9780132942799:ch17.html" type="button" class="rec-fav ss-queue js-queue js-current-chapter-queue" data-queue-endpoint="/api/v1/book/9780132942799/chapter/ch17.html"><span>Add to Queue</span></button></li><li class="js-font-control-panel font-control-activator"><a href="#" data-push-state="false" id="font-controls" title="Change font size" aria-label="Change font size"><span class="icon">Toggle Font Controls</span></a></li><li class="dropdown sharing-controls"><a href="#" class="trigger" data-push-state="false" title="Share" aria-label="Share"><i class="fa fa-share"></i></a><ul class="social-sharing dropdown-menu"><li><a class="twitter share-button t-twitter" target="_blank" aria-label="Share this section on Twitter" title="Share this section on Twitter" href="https://twitter.com/share?url=https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch10.html&amp;text=Software%20Architecture%20in%20Practice%2C%20Third%20Edition&amp;via=safari"><span>Twitter</span></a></li><li><a class="facebook share-button t-facebook" target="_blank" aria-label="Share this section on Facebook" title="Share this section on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch10.html"><span>Facebook</span></a></li><li><a class="googleplus share-button t-googleplus" target="_blank" aria-label="Share this secton on Google Plus" title="Share this secton on Google Plus" href="https://plus.google.com/share?url=https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch10.html"><span>Google Plus</span></a></li><li><a class="email share-button t-email" aria-label="Share this section via email" title="Share this section via email" href="mailto:?subject=Safari:%2010.%20Testability&amp;body=https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch10.html%0D%0Afrom%20Software%20Architecture%20in%20Practice%2C%20Third%20Edition%0D%0A"><span>Email</span></a></li></ul></li>
+      </ul>
+    </div>
+
+    <section role="document">
+	  <div class="t-sbo-prev sbo-prev sbo-nav-top">
+  
+    
+      
+        <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch16.html" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">16. Architecture and Requirements</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-top">
+  
+    
+      
+        <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch18.html" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">18. Documenting Software Architectures</div>
+        </a>
+    
+  
+  </div>
+
+
+
+<div id="sbo-rt-content"><div class="annotator-wrapper"><h2 id="ch17"><a id="page_311"></a>17. Designing an Architecture</h2>
+<div class="attri">
+<p class="blockquote"><em>In most people’s vocabularies, design means 
+veneer. It’s interior decorating. It’s the fabric of the curtains or the
+ sofa. But to me, nothing could be further from the meaning of design. 
+Design is the fundamental soul of a human-made creation that ends up 
+expressing itself in successive outer layers of the product or service.</em></p>
+<p class="attribution">—Steve Jobs</p>
+</div>
+<p class="noindent">We have discussed the building blocks for designing a
+ software architecture, which principally are locating architecturally 
+significant requirements; capturing quality attribute requirements; and 
+choosing, generating, tailoring, and analyzing design decisions for 
+achieving those requirements. All that’s missing is a way to pull the 
+pieces together. The purpose of this chapter is to provide that way.</p>
+<p class="indent">We begin by describing our strategy for designing an 
+architecture and then present a packaging of these ideas into a method: 
+the Attribute-Driven Design method.</p>
+<h3 id="ch17lev1sec1">17.1. Design Strategy</h3>
+<p class="noindent">We present three ideas that are key to architecture 
+design methods: decomposition, designing to architecturally significant 
+requirements, and generate and test.</p>
+<h4 id="ch17lev2sec1">Decomposition</h4>
+<p class="noindent">Architecture determines the quality attributes of a 
+system. Hopefully, we have convinced you of that by now. The quality 
+attributes are properties of the system <a id="page_312"></a>as a whole.
+ Latency, for example, is the time between the arrival of an event and 
+the output of the processing of that event. Availability refers to the 
+system providing services, and so forth.</p>
+<p class="indent">Given the fact that quality attributes refer to the 
+system as a whole, if we wish to design to achieve quality attribute 
+requirements, we must begin with the system as a whole. As the design is
+ decomposed, the quality attribute requirements can also be decomposed 
+and assigned to the elements of the decomposition.</p>
+<p class="indent">A decomposition strategy does not mean that we are 
+assuming the design is a green-field design or that there are no 
+constraints on the design to use particular preexisting components 
+either externally developed or legacy. Just as when you choose a route 
+from one point to another, you may choose to stop at various 
+destinations along the route, constraints on the design can be 
+accommodated by a decomposition strategy. You as the designer must keep 
+in mind the constraints given to you and arrange the decomposition so 
+that it will accommodate those constraints. In some contexts, the system
+ may end up being constructed mostly from preexisting components; in 
+others, the preexisting components may be a smaller portion of the 
+overall system. In either case, the goal of the design activity is to 
+generate a design that accommodates the constraints and achieves the 
+quality and business goals for the system.</p>
+<p class="indent">We have already talked about module decomposition, but
+ there are other kinds of decompositions that one regularly finds in an 
+architecture, such as the decomposition of a component in a 
+components-and-connectors (C&amp;C) pattern into its subcomponents. For 
+example, a user interface implemented using the model-view-controller 
+(MVC) pattern would be decomposed into a number of components for the 
+model, one or more views, and one or more controllers.</p>
+<h4 id="ch17lev2sec2">Designing to Architecturally Significant Requirements</h4>
+<p class="noindent">In <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch16.html#ch16">Chapter 16</a>,
+ we discussed architecturally significant requirements (ASRs) and gave a
+ technique for collecting and structuring them. These are the 
+requirements that drive the architectural design; that is why they are 
+significant. Driving the design means that these requirements have a 
+profound effect on the architecture. In other words, you must design to 
+satisfy these requirements. This raises two questions: What happens to 
+the other requirements? and Do I design for one ASR at a time or all at 
+once?</p>
+<p class="indenthangingN"><strong>1.</strong> <em>What about the non-ASR requirements?</em>
+ The choice of ASRs implies a prioritization of the requirements. Once 
+you have produced a design that satisfies the ASRs, you know that you 
+are in good shape. However, in the real world, there are other 
+requirements that, while not ASRs, you would like to be able to satisfy.
+ You have three options with respect to meeting these other 
+requirements: (a) You can still meet the other requirements. (b) You can
+ meet the other requirements with a slight adjustment of the existing 
+design, and this slight adjustment does not keep the higher priority <a id="page_313"></a>requirements
+ from being met. (c) You cannot meet the other requirements under the 
+current design. In case (a) or (b), there is nothing more to be done. 
+You are happy. In case (c), you now have three options: (i) If you are 
+close to meeting the requirement, you can see if the requirement can be 
+relaxed. (ii) You can reprioritize the requirements and revisit the 
+design. (iii) You can report that you cannot meet the requirement. All 
+of these latter three options involve adjusting either the requirement 
+or its priority. Doing so may have a business impact, and it should be 
+reported up the management chain.</p>
+<p class="indenthangingN"><strong>2.</strong> <em>Design for all of the ASRs or one at a time?</em>
+ The answer to this question is a matter of experience. When you learn 
+chess, you begin by learning that the horsey goes up two and over one. 
+After you have been playing for a while, you internalize the moves of 
+the knight and you can begin to look further ahead. The best players may
+ look ahead a dozen or more moves. This situation applies to when you 
+are designing to satisfy ASRs. Left to their own devices, novice 
+architects will likely focus on one ASR at a time. But you can do better
+ than that. Eventually, through experience and education, you will 
+develop an intuition for designing, and you will employ patterns to aid 
+you in designing for multiple ASRs.</p>
+<h4 id="ch17lev2sec3">Generate and Test</h4>
+<p class="noindent">One way of viewing design is as a process of 
+“generate and test.” This generate-and-test approach views a particular 
+design as a hypothesis: namely, the design satisfies the requirements. 
+Testing is the process of determining whether the design hypothesis is 
+correct. If it is not, then another design hypothesis must be generated.
+ <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch17.html#ch17fig01">Figure 17.1</a> shows this iteration.</p>
+<div class="image"><a id="ch17fig01"></a><img data-mfp-src="/library/view/software-architecture-in/9780132942799/graphics/17fig01.jpg" src="17.%20Designing%20an%20Architecture_files/17fig01.jpg" alt="Image" height="237" width="630"></div>
+<p class="fig-caption">Figure 17.1. The generate-and-test process of architecture design</p>
+<p class="indent"><a id="page_314"></a>For this process to be effective,
+ the generation of the next design hypothesis must build on the results 
+of the tests. That is, the things wrong with the current design 
+hypothesis are fixed in the next design hypothesis, and the things that 
+are right are kept. If there is no coupling between the testing and the 
+generation of the next design hypothesis, then this process becomes 
+“guess and test” and that is not effective.</p>
+<p class="indent">Generate and test as a design strategy leads to the following questions:</p>
+<p class="indenthangingN"><strong>1.</strong> Where does the initial hypothesis come from?</p>
+<p class="indenthangingN"><strong>2.</strong> What are the tests that are applied?</p>
+<p class="indenthangingN"><strong>3.</strong> How is the next hypothesis generated?</p>
+<p class="indenthangingN"><strong>4.</strong> When are you done?</p>
+<p class="indent">We have already seen many of the elements of the 
+answers to these questions. But now we can think about them and organize
+ them more systematically.</p>
+<h4 id="ch17lev2sec4">Creating the Initial Hypothesis</h4>
+<p class="noindent">Design solutions are created using “collateral” that
+ is available to the project. Collateral can include existing systems, 
+frameworks available to the project, known architecture patterns, design
+ checklists, or a domain decomposition.</p>
+<p class="indenthangingB">• <em>Existing systems.</em> Very few systems 
+are completely unprecedented, even within a single organization. 
+Organizations are in a particular business, their business leads to 
+specialization, and specialization leads to the development of 
+variations on a theme. It is likely that systems already exist that are 
+similar to the system being constructed in your company.</p>
+<p class="indenthangingBP1">Existing systems are likely to provide the 
+most powerful collateral, because the business context and requirements 
+for the existing system are likely to be similar to the business context
+ and requirements for the new system, and many of the problems that 
+occur have already been solved in the existing design.</p>
+<p class="indenthangingBP1">A common special case is when the existing 
+system you’re drawing on for knowledge is the same one that you’re 
+building. This occurs when you’re evolving a system, not building one 
+from scratch. The existing design serves as the initial design 
+hypothesis. The “test” part of this process will reveal the parts that 
+don’t work under the current (presumably changed) set of requirements 
+and will therefore pinpoint the parts of the system’s design that need 
+to change.</p>
+<p class="indenthangingBP1">Another special case is when you have to 
+combine existing legacy systems into a single system. In this case, the 
+collection of legacy systems can be mined to determine the initial 
+design hypothesis.</p>
+<p class="indenthangingB">• <em>Frameworks.</em> A framework is a 
+partial design (accompanied by code) that provides services that are 
+common in particular domains. Frameworks exist in a great many domains, 
+ranging from web applications to middleware systems to decision support 
+systems. The design of the framework (especially <a id="page_315"></a>the
+ architectural assumptions it makes) provides the initial design 
+hypothesis. For example, a design framework might constrain all 
+communication to be via a broker, or via a publish-subscribe bus, or via
+ callbacks. In each case this design framework has constrained your 
+initial design hypothesis.</p>
+<p class="indenthangingB">• <em>Patterns and tactics.</em> As we discussed in <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch13.html#ch13">Chapter 13</a>,
+ a pattern is a known solution to a common problem in a given context. 
+Cataloged architectural patterns, possibly augmented with tactics, 
+should be considered as candidates for the design hypothesis you’re 
+building.</p>
+<p class="indenthangingB">• <em>Domain decomposition.</em> Another 
+option for the initial design hypothesis comes from performing a domain 
+decomposition. For example, most object-oriented analysis and design 
+processes begin this way, identifying actors and entities in the domain.
+ This decomposition will divide the responsibilities to make certain 
+modifications easier, but by itself it does not speak to many other 
+quality attribute requirements.</p>
+<p class="indenthangingB">• <em>Design checklists.</em> The design checklists that we presented in <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch05.html#ch05">Chapters 5</a>–<a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch11.html#ch11">11</a>
+ can guide an architect to making quality-attribute-targeted design 
+choices. The point of using a checklist is to ensure completeness: Have I
+ thought about all of the issues that might arise with respect to the 
+many quality attribute concerns that I have? The checklist will provide 
+guidance and confidence to an architect.</p>
+<h4 id="ch17lev2sec5">Choosing the Tests</h4>
+<p class="noindent">Three sources provide the tests to be applied to the hypothesis:</p>
+<p class="indenthangingN"><strong>1.</strong> The analysis techniques described in <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch14.html#ch14">Chapter 14</a>.</p>
+<p class="indenthangingN"><strong>2.</strong> The design checklists for the quality attributes that we presented in <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch05.html#ch05">Chapters 5</a>–<a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch11.html#ch11">11</a>
+ can also be used to test the design decisions already made, from the 
+sources listed above. For the important quality attribute requirements, 
+use the design checklists to assess whether the decisions you’ve made so
+ far are sound and complete. For example, if testability is important 
+for your system, the checklist says to ensure that the coordination 
+model supports capturing the activity that led to a fault.</p>
+<p class="indenthangingN"><strong>3.</strong> The architecturally 
+significant requirements. If the hypothesis does not provide a solution 
+for the ASRs, then it must be improved.</p>
+<h4 id="ch17lev2sec6">Generating the Next Hypothesis</h4>
+<p class="noindent">After applying the tests, you might be 
+done—everything looks good. On the other hand, you might still have some
+ concerns; specifically, you might have a list of quality attribute 
+problems associated with your analysis of the current hypothesis. This 
+is the problem that tactics are intended to solve: to improve a design 
+with respect to a particular quality attribute. Use the sets of tactics 
+described in each of <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch05.html#ch05">Chapters 5</a>–<a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch11.html#ch11">11</a>
+ to help you to choose the ones that will improve your design so that 
+you can satisfy these outstanding quality attribute requirements.</p>
+<h4 id="ch17lev2sec7"><a id="page_316"></a>Terminating the Process</h4>
+<p class="noindent">You are done with the generate-and-test process when
+ you either have a design that satisfies the ASRs or when you exhaust 
+your budget for producing the design. In <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch22.html#ch22">Chapter 22</a>, we discuss how much time should be budgeted for producing the architecture.</p>
+<p class="indent">If you do not produce such a design within budget, 
+then you have two options depending on the set of ASRs that are 
+satisfied. Your first option is to proceed to implementation with the 
+best hypothesis you were able to produce, with the realization that some
+ ASRs may not be met and may need to be relaxed or eliminated. This is 
+the most common case. Your second option is to argue for more budget for
+ design and analysis, potentially revisiting some of the major early 
+design decisions and resuming generate and test from that point. If all 
+else fails, you could suggest that the project be terminated. If all of 
+the ASRs are critical and you were not able to produce an acceptable or 
+nearly acceptable design, then the system you produce from the design 
+will not be satisfactory and there is no sense in producing it.</p>
+<h3 id="ch17lev1sec2">17.2. The Attribute-Driven Design Method</h3>
+<p class="noindent">The Attribute-Driven Design (ADD) method is a 
+packaging of the strategies that we have just discussed. ADD is an 
+iterative method that, at each iteration, helps the architect to do the 
+following:</p>
+<p class="indenthangingB">• Choose a part of the system to design.</p>
+<p class="indenthangingB">• Marshal all the architecturally significant requirements for that part.</p>
+<p class="indenthangingB">• Create and test a design for that part.</p>
+<p class="indent">The output of ADD is not an architecture complete in 
+every detail, but an architecture in which the main design approaches 
+have been selected and vetted. It produces a “workable” architecture 
+early and quickly, one that can be given to other project teams so they 
+can begin their work while the architect or architecture team continues 
+to elaborate and refine.</p>
+<h4 id="ch17lev2sec8">Inputs to ADD</h4>
+<p class="noindent">Before beginning a design process, the 
+requirements—functional, quality, and constraints—should be known. In 
+reality, waiting for all of the requirements to be known means the 
+project will never be finished, because requirements are continually 
+arriving to a project as a result of increased knowledge on the part of 
+the stakeholders and changes in the environment (technical, social, 
+legal, financial, or political) over time. ADD can begin when a set of 
+architecturally significant requirements is known.</p>
+<p class="indent"><a id="page_317"></a>This increases the importance of 
+having the correct set of ASRs. If the set of ASRs changes after design 
+has begun, then the design may well need to be reworked (a truth under 
+any design method, not just ADD). To the extent that you have any 
+influence over the requirements-gathering process, it would behoove you 
+to lobby for collection of ASRs first. Although these can’t all be known
+ <em>a priori</em>, as we saw in <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch16.html#ch16">Chapter 16</a>, quality attribute requirements are a good start.</p>
+<p class="indent">In addition to the ASRs, input to ADD should include a
+ context description. The context description gives you two vital pieces
+ of information as a designer:</p>
+<p class="indenthangingN"><strong>1.</strong> <em>What are the boundaries of the system being designed?</em>
+ What is inside the system and what is outside the system must be known 
+in order to constrain the problem and establish the scope of the 
+architecture you are designing. The system’s scope is unknown or unclear
+ surprisingly often, and it will help the architecture to nail down the 
+scope as soon as you can.</p>
+<p class="indenthangingN"><strong>2.</strong> <em>What are the external systems, devices, users, and environmental conditions with which the system being designed must interact?</em>
+ By “environmental conditions” here we are referring to the system’s 
+runtime environment. The system’s environmental conditions are an 
+enumeration of factors such as where the input comes from, where the 
+output goes, what forms they take, what quality attributes they have, 
+and what forces may affect the operation of the system. It is possible 
+that not all of the external systems are known at design time. In this 
+case, the system must have some discovery mechanisms, but the context 
+description should enumerate the assumptions that can be made about the 
+external systems even if their specifics are not yet known. An example 
+of accommodating environment conditions can be seen in a system that 
+must be sent into space. In addition to handling its inputs, outputs, 
+and quality attributes, such a system must accommodate failures caused 
+by stray gamma rays, certainly a force affecting the operation of the 
+system.</p>
+<h4 id="ch17lev2sec9">Output of ADD</h4>
+<p class="noindent">The output of ADD is a set of sketches of 
+architectural views. The views together will identify a collection of 
+architectural elements and their relationships or interactions. One of 
+the views produced will be a module decomposition view, and in that view
+ each element will have an enumeration of its responsibilities listed.</p>
+<p class="indent">Other views will be produced according to the design 
+solutions chosen along the way. For example, if at one point in 
+executing the method, you choose the service-oriented architecture (SOA)
+ pattern for part of the system, then you will capture this in an SOA 
+view (whose scope is that part of the system to which you applied the 
+pattern).</p>
+<p class="indent">The interactions of the elements are described in 
+terms of the information being passed between the elements. For example,
+ we might specify protocol names, synchronous, asynchronous, level of 
+encryption, and so forth.</p>
+<p class="indent"><a id="page_318"></a>The reason we refer to “sketches”
+ above is that ADD does not take the design so far as to include 
+full-blown interface specifications, or even so far as choosing the 
+names and parameter types of interface programs (methods). That can come
+ later. ADD does identify the information that passes through the 
+interfaces and important characteristics of the information. If any 
+aspects of an interface have quality attribute implications, those are 
+captured as annotations.</p>
+<p class="indent">When the method reaches the end, you will have a 
+full-fledged architecture that is roughly documented as a set of views. 
+You can then polish this collection, perhaps merging some of the views 
+as appropriate, to the extent required by your project. In an Agile 
+project, this set of rough sketches may be all you need for quite a 
+while, or for the life of the project.</p>
+<h3 id="ch17lev1sec3">17.3. The Steps of ADD</h3>
+<p class="noindent">ADD is a five-step method:</p>
+<p class="indenthangingN"><strong>1.</strong> Choose an element of the system to design.</p>
+<p class="indenthangingN"><strong>2.</strong> Identify the ASRs for the chosen element.</p>
+<p class="indenthangingN"><strong>3.</strong> Generate a design solution for the chosen element.</p>
+<p class="indenthangingN"><strong>4.</strong> Inventory remaining requirements and select the input for the next iteration.</p>
+<p class="indenthangingN"><strong>5.</strong> Repeat steps 1–4 until all the ASRs have been satisfied.</p>
+<h4 id="ch17lev2sec10">Step 1: Choose an Element of the System to Design</h4>
+<p class="noindent">ADD works by beginning with a part of the system 
+that has not yet been designed, and designing it. In this section, we’ll
+ discuss how to make that choice.</p>
+<p class="indent">For green-field designs, the “element” to begin with 
+is simply the entire system. The first trip through the ADD steps will 
+yield a broad, shallow design that will produce a set of newly 
+identified architectural elements and their interactions. These elements
+ will almost certainly require more design decisions to flesh out what 
+they do and how they satisfy the ASRs allocated to them; during the next
+ iteration of ADD, those elements become candidates for the “choose an 
+element” step.</p>
+<p class="indent">So, nominally, the first iteration of ADD will create a
+ collection of elements that together constitute the entire system. The 
+second iteration will take one of these elements—what we call the 
+“chosen element”—and design it, resulting in still finer-grained 
+elements. The third iteration will take another element—either one of 
+the children of the whole system or one of the children that was created
+ from the design of one of the children of the whole system—and so 
+forth. For example, if you choose an SOA pattern in the first iteration,
+ you might choose child elements such as service clients, service 
+providers, and the SOA infrastructure <a id="page_319"></a>components. 
+In the next iteration through the loop, you would refine one of these 
+child elements, perhaps the infrastructure components. In the next 
+iteration you now have a choice: refine another child of the SOA 
+pattern, such as a service provider, or refine one of the child elements
+ of the infrastructure components. <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch17.html#ch17fig02">Figure 17.2</a>
+ shows these choices as a decomposition tree, annotated with the ADD 
+iteration that applies to each node. (The example components are loosely
+ based on the Adventure Builder system, introduced in <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch13.html#ch13">Chapter 13</a>.) <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch17.html#ch17fig02">Figure 17.2</a> is a decomposition view of our hypothetical system after two iterations of ADD.</p>
+<div class="image"><a id="ch17fig02"></a><img data-mfp-src="/library/view/software-architecture-in/9780132942799/graphics/17fig02.jpg" src="17.%20Designing%20an%20Architecture_files/17fig02.jpg" alt="Image" height="413" width="676"></div>
+<p class="fig-caption">Figure 17.2. Iteration 1 applied the SOA pattern.
+ Iteration 2 refined the infrastructure components. Where will iteration
+ 3 take you?</p>
+<p class="indent">There are cases when the first iteration of ADD is 
+different. Perhaps you are not creating a system but evolving an 
+existing one. Perhaps you are required to use a piece of software that 
+your company already owns, and therefore must fit it into the design. 
+There are many reasons why some of the design might already be done for 
+you, and the first time through the steps of ADD you won’t pick “whole 
+system” as the starting point. Nevertheless, step 1 still holds: All it 
+requires is that at least one of the elements you know about needs 
+further design.</p>
+<p class="indent">There are two main refinement strategies to pursue 
+with ADD: breadth first and depth first. Breadth first means that all of
+ the second-level elements are designed before any of the third-level 
+elements, and so forth. Depth first means that one downward chain is 
+completed before beginning a second downward chain. The order that you 
+should work through ADD is influenced by the business and technical 
+contexts within which the project is operating. Some of the important 
+factors include the following:</p>
+<p class="indenthangingB"><a id="page_320"></a>• <em>Personnel availability may dictate a refinement strategy.</em>
+ If an important group or team has a window of availability that will 
+close soon and will work on a particular part of the system, then it 
+behooves the architect to design that part of the system to the point 
+where it can be handed off for implementation—depth first. But if the 
+team is not currently available but will be available at some definite 
+time in the future, then you can defer their part of the design until 
+later.</p>
+<p class="indenthangingB">• <em>Risk mitigation may dictate a refinement strategy.</em>
+ The idea is to design the risky parts of the system to enough depth so 
+that problems can be identified and solved early. For example, if an 
+unfamiliar technology is being introduced on the project, prototypes 
+using that technology will likely be developed to gain understanding of 
+its implications. These prototypes are most useful if they reflect the 
+design of the actual system. A depth-first strategy can provide a 
+context for technology prototyping. Using this context you can build the
+ prototype in a fashion that allows for its eventual integration into 
+the architecture. On the other hand, if the risk is in how elements at 
+the <em>same</em> level of the design interact with each other to meet critical quality attributes, then a breadth-first strategy is in order.</p>
+<p class="indenthangingB">• <em>Deferral of some functionality or quality attribute concerns may dictate a mixed approach.</em>
+ For example, suppose the system being constructed has a medium-priority
+ availability requirement. In this case you might adopt a strategy of 
+employing redundancy for availability but defer detailed consideration 
+of this redundancy strategy to allow for the rapid generation of the 
+high-priority functionality in an intermediate release. You might 
+therefore apply a breadth-first approach for everything but 
+availability, and then in subsequent design iterations you revisit some 
+of the elements to enable the addition of the responsibilities to 
+support availability. In reality this approach will require some 
+backtracking, where you revisit earlier decisions and refine them or 
+modify them to accommodate this new requirement.</p>
+<p class="indent">All else being equal, a breadth-first refinement 
+strategy is preferred because it allows you to apportion the most work 
+to the most teams soonest. Breadth first allows for consideration of the
+ interaction among the elements at the same level.</p>
+<h4 id="ch17lev2sec11">Step 2: Identify the ASRs for This Element</h4>
+<p class="noindent">In <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch16.html#ch16">Chapter 16</a>
+ we described a number of methods for discovering the ASRs for a system.
+ One of those methods involved building a utility tree. To support the 
+design process, the utility tree has an advantage over the other 
+methods: it guides the stakeholders in prioritizing the QA requirements.
+ The two factors used to prioritize the ASRs in a utility tree are 
+business value and architectural impact. The business value of an ASR 
+typically will not change throughout the design process and does not 
+need to be reconsidered.</p>
+<p class="indent"><a id="page_321"></a>If the chosen element for design 
+in step 1 is the whole system, then a utility tree can be a good source 
+for the ASRs. Otherwise, construct a utility tree specifically focused 
+on this chosen element, using the quality attribute requirements that 
+apply to this element (you’ll see how to assign those in step 4). Those 
+that are labeled (High, High) are the ASRs for this element. As an 
+architect you will also need to pay attention to the (High, Medium) and 
+(Medium, High) utility tree leaves as well. These will almost certainly 
+also be ASRs for this element.</p>
+<h4 id="ch17lev2sec12">Step 3: Generate a Design Solution for the Chosen Element</h4>
+<p class="noindent">This step is the heart of the ADD. It is the 
+application of the generate-and-test strategy. Upon entry to this step, 
+we have a chosen element for design and a list of ASRs that apply to it.
+ For each ASR, we develop a solution by choosing a candidate design 
+approach.</p>
+<p class="indent">Your initial candidate design will likely be inspired 
+by a pattern, possibly augmented by one or more tactics. You may then 
+refine this candidate design by considering the design checklists that 
+we gave for the quality attributes in <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch05.html#ch05">Chapters 5</a>–<a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch11.html#ch11">11</a>.
+ For ASRs that correspond to quality attributes, you can invoke those 
+checklists to help you instantiate or refine the major design approach 
+(such as a pattern) that you’ve chosen. For example, the layered pattern
+ is helpful for building systems in which modifiability is important, 
+but the pattern does not tell you how many layers you should have or 
+what each one’s responsibility should be. But the checklist for the 
+“allocation of responsibilities” design decision category for 
+modifiability in <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch07.html#ch07">Chapter 7</a> will help you ask the right questions to make that determination.</p>
+<p class="indent">Although this step is performed for each ASR in turn, 
+the sources of design candidates outlined above—patterns, tactics, and 
+checklists—will usually do much better than that. That is, you’re likely
+ to find design candidates that address several of your ASRs at once. 
+This is because to the extent that the system you’re building is similar
+ to others you know about, or to the extent that the problem you are 
+solving is similar to the problems solved by patterns, it is likely that
+ the solutions you choose will be solving a whole collection of ASRs 
+simultaneously. If you can bring a solution to bear that solves more 
+than one of your ASRs at once, so much the better.</p>
+<p class="indent">The design decisions made in this step now become constraints on all future steps of the method.</p>
+<h4 id="ch17lev2sec13">Step 4: Verify and Refine Requirements and Generate Input for the Next Iteration</h4>
+<p class="noindent">It’s possible that the design solution you came up 
+with in the prior step won’t satisfy all the ASRs. Step 4 of ADD is a 
+test step that is applied to your design for the element you chose to 
+elaborate in step 1 of this iteration. One of the possible <a id="page_322"></a>outcomes
+ of step 4 is “backtrack,” meaning that an important requirement was not
+ satisfied and cannot be satisfied by further elaborating this design. 
+In this case, the design needs to be reconsidered.</p>
+<p class="indent">The ASRs you have not yet satisfied could be related to the following:</p>
+<p class="indenthangingN"><strong>1.</strong> A quality attribute requirement allocated to the parent element</p>
+<p class="indenthangingN"><strong>2.</strong> A functional responsibility of the parent element</p>
+<p class="indenthangingN"><strong>3.</strong> One or more constraints on the parent element</p>
+<p class="indent"><a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch17.html#ch17tab01">Table 17.1</a> summarizes the types of problems and the actions we recommend for each.</p>
+<p class="tab-caption"><a id="ch17tab01"></a>Table 17.1. Recommended Actions for Problems with the Current Hypothesis</p>
+<div class="image"><img data-mfp-src="/library/view/software-architecture-in/9780132942799/graphics/17tab01.jpg" src="17.%20Designing%20an%20Architecture_files/17tab01.jpg" alt="Image" height="495" width="630"></div>
+<p class="indent">In most real-world systems, requirements outstrip 
+available time and resources. Consequently you will find yourself unable
+ to meet some of the QA requirements, functional requirements, and 
+constraints. These kinds of decisions are outside the scope of the ADD 
+method, but they are clearly important drivers of the design process, 
+and as an architect you will be continually negotiating decisions of 
+this form.</p>
+<p class="indent">Step 4 is about taking stock and seeing what 
+requirements are left that still have not been satisfied by our design 
+so far. At this point you should sequence through the quality attribute 
+requirements, responsibilities, and constraints for the element just 
+designed. For each one there are four possibilities:</p>
+<p class="indenthangingN"><a id="page_323"></a><strong>1.</strong> <em>The quality attribute requirement, functional requirement, or constraint has been satisfied.</em>
+ In this case, the design with respect to that requirement is complete; 
+the next time around, when you further refine the design, this 
+requirement will not be considered. For example, if a constraint is to 
+use a particular middleware and the system is decomposed into elements 
+that all use this middleware, the constraint has been satisfied and can 
+be removed from consideration. An example of a quality attribute 
+requirement being satisfied is a requirement to make it easy to modify 
+elements and their interactions. If a publish-subscribe pattern can be 
+shown to have been employed throughout the system, then this QA 
+requirement can be said to be satisfied.</p>
+<p class="indenthangingN"><strong>2.</strong> <em>The quality attribute requirement, functional requirement, or constraint is delegated to one of the children.</em>
+ For example, if a constraint is to use a particular middleware and the 
+decomposition has a child element that acts as the infrastructure, then 
+delegating that constraint to that child will retain the constraint and 
+have it be reconsidered when the infrastructure element is chosen for 
+subsequent design. Similarly, with the example we gave earlier about 
+providing extensibility, if there is as yet no identifiable plug-in 
+manager, then this requirement is delegated to the child where the 
+plug-in manager is likely to appear.</p>
+<p class="indenthangingN"><strong>3.</strong> <em>The quality attribute requirement, functional requirement, or constraint is distributed among the children.</em>
+ For example, a constraint might be to use .NET. In this case, .NET 
+Remoting might become a constraint on one child and ASP.NET on another. 
+Or a quality attribute requirement that constrains end-to-end latency of
+ a certain operation to 2 seconds could be distributed among the 
+element’s three children so that the latency requirement for one element
+ is 0.8 seconds, the latency for a second element is 0.9 seconds, and 
+the latency for a third is 0.3 seconds. When those elements are 
+subsequently chosen for further design, those times will serve as 
+constraints on them individually.</p>
+<p class="indenthangingN"><strong>4.</strong> <em>The quality attribute requirement, functional requirement, or constraint cannot be satisfied with the current design.</em>
+ In this case there are the same two options we discussed previously: 
+you can either backtrack—revisit the design to see if the constraint or 
+quality attribute requirement can be satisfied some other way—or push 
+back on the requirement. This will almost certainly involve the 
+stakeholders who care about that requirement, and you should have 
+convincing arguments as to why the dropping of the requirement is 
+necessary.</p>
+<p class="indenthangingNP">Report to the project manager that the 
+constraint cannot be satisfied without jeopardizing other requirements. 
+You must be prepared to justify such an assertion. Essentially, this is 
+asking, “What’s more important—the constraint or these other 
+requirements?”</p>
+<h4 id="ch17lev2sec14"><a id="page_324"></a>Step 5: Repeat Steps 1–4 Until Done</h4>
+<p class="noindent">After the prior steps, each element has a set of 
+responsibilities, a set of quality attribute requirements, and a set of 
+constraints assigned to it. If it’s clear that all of the requirements 
+are satisfied, then this unequivocally ends the ADD process.</p>
+<p class="indent">In projects in which there is a high degree of trust 
+between you and the implementation teams, the ADD process can be 
+terminated when only a sketch of the architecture is available. This 
+could be as soon as two levels of breadth-first design, depending on the
+ size of the system. In this case, you trust the implementation team to 
+be able to flesh out the architecture design in a manner consistent with
+ the overall design approaches you have laid out. The test for this is 
+if you believe that you could begin implementation with the level of 
+detail available and trust the implementation team to that extent. If 
+you have less trust in the implementation team, then an additional level
+ (or levels) of design may be necessary. (And, of course, you will need 
+to subsequently ensure that the implementation is faithfully followed by
+ the team.)</p>
+<p class="indent">On the other hand, if there is a contractual 
+arrangement between your organization and the implementation 
+organization, then the specification of the portion of the system that 
+the implementers are providing must be legally enforceable. This means 
+that the ADD process must continue until that level of specificity has 
+been achieved.</p>
+<p class="indent">Finally, another condition for terminating ADD is when
+ the project’s design budget has been exhausted. This happens more often
+ than you might think.</p>
+<p class="indent">Choosing when to terminate ADD and when to start 
+releasing the architecture that you’ve sketched out are not the same 
+decision. You can, and in many cases should, start releasing early 
+architectural views based on the needs of the project (such as scheduled
+ design reviews or customer presentations) and your confidence in the 
+design so far. The unpalatable alternative is to make everyone wait 
+until the architecture design is finished. 
+You-can’t-have-it-until-it’s-done is particularly unpalatable in Agile 
+projects, as we discussed in <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch15.html#ch15">Chapter 15</a>.</p>
+<p class="indent">You should release the documentation with a caveat as 
+to how likely you think it is to change. But even early 
+broad-and-shallow architectural descriptions can be enormously helpful 
+to implementers and other project staff. A first- or second-level module
+ decomposition view, for instance, lets experts start scouring the 
+marketplace for commercial products that provide the responsibilities of
+ the identified modules. Managers can start making budgets and schedules
+ for implementation that are based on the architecture and not just the 
+requirements. Support staff can start building the infrastructure and 
+file systems to hold project artifacts (these are often structured to 
+mirror the module decomposition view). And early release invites early 
+feedback.</p>
+<h3 id="ch17lev1sec4"><a id="page_325"></a>17.4. Summary</h3>
+<p class="noindent">The Attribute-Driven Design method is an application
+ of the generate-and-test philosophy. It keeps the number of 
+requirements that must be satisfied to a humanly achievable quantity. 
+ADD is an iterative method that, at each iteration, helps the architect 
+to do the following:</p>
+<p class="indenthangingB">• Choose an element of the system to design.</p>
+<p class="indenthangingB">• Marshal all the architecturally significant requirements for the chosen element.</p>
+<p class="indenthangingB">• Create and test a design for that chosen element.</p>
+<p class="indent">The output of ADD is not an architecture complete in 
+every detail, but an architecture in which the main design approaches 
+have been selected and validated. It produces a “workable” architecture 
+early and quickly, one that can be given to other project teams so they 
+can begin their work while the architect or architecture team continues 
+to elaborate and refine.</p>
+<p class="indent">ADD is a five-step method:</p>
+<p class="indenthangingN"><strong>1.</strong> Choose the element of the 
+system to design. For green-field designs, the “part” to begin with is 
+simply the entire system. For designs that are already partially 
+completed (either by external constraints or by previous iterations 
+through ADD), the part is an element that is not yet designed. Choosing 
+the next element can proceed in a breadth-first, depth-first, or mixed 
+manner.</p>
+<p class="indenthangingN"><strong>2.</strong> Identify the ASRs for the chosen element.</p>
+<p class="indenthangingN"><strong>3.</strong> Generate a design solution
+ for the chosen element, using design collateral such as existing 
+systems, frameworks, patterns and tactics, and the design checklists 
+from <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch05.html#ch05">Chapters 5</a>–<a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch11.html#ch11">11</a>.</p>
+<p class="indenthangingN"><strong>4.</strong> Verify and refine 
+requirements and generate input for the next iteration. Either the 
+design in step 3 will satisfy all of the chosen element’s ASRs or it 
+won’t. If it doesn’t, then either they can be allocated to elements that
+ will be elaborated in future iterations of ADD, or the existing design 
+is inadequate and we must backtrack. Furthermore, non-ASR requirements 
+will either be satisfied, allocated to children, or indicated as not 
+achievable.</p>
+<p class="indenthangingN"><strong>5.</strong> Repeat steps 1–4 until all
+ the ASRs have been satisfied, or until the architecture has been 
+elaborated sufficiently for the implementers to use it.</p>
+<h3 id="ch17lev1sec5">17.5. For Further Reading</h3>
+<p class="noindent">You can view design as the process of making 
+decisions; this is another philosophy of design. This view of design 
+leads to an emphasis on design rationale and tools to capture design 
+rationale. The view of design as the process of making <a id="page_326"></a>decisions dates to the 1940s <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_137">[Mettler 91]</a>, but it has been recently applied to architecture design most prominently by Philippe Kruchten <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_117">[Kruchten 04]</a>, and Hans van Vliet and Jan Bosch <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_190">[van Vliet 05]</a>.</p>
+<p class="indent">The Software Engineering Institute has produced a 
+number of reports describing the ADD method and its application in a 
+variety of contexts. These include <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_197">[Wojcik 06]</a>, <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_108">[Kazman 04]</a>, and <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_198">[Wood 07]</a>.</p>
+<p class="indent">George Fairbanks has written an engaging book that describes a risk-driven process of architecture design, entitled <em>Just Enough Software Architecture: A Risk-Driven Approach</em> <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_067">[Fairbanks 10]</a>.</p>
+<p class="indent">Tony Lattanze has created an Architecture-Centric Design Method (ACDM), described in his book <em>Architecting Software Intensive Systems: A Practitioners Guide</em> <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_121">[Lattanze 08]</a>.</p>
+<p class="indent">Ian Gorton’s <em>Essential Architecture, Second Edition</em>, emphasizes the middleware aspects of a design <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_078">[Gorton 10]</a>.</p>
+<p class="indent">Woods and Rozanski have written <em>Software Systems Architecture, Second Edition</em>, which interprets the design process through the prism of different views <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_199">[Woods 11]</a>.</p>
+<p class="indent">A number of authors have compared five different industrial architecture design methods. You can find this comparison at <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_090">[Hofmeister 07]</a>.</p>
+<p class="indent">Raghvinder Sangwan and his colleagues describe the 
+design of a building management system that was originally designed 
+using object-oriented techniques and then was redesigned using ADD <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/app01.html#bib01_164">[Sangwan 08]</a>.</p>
+<h3 id="ch17lev1sec6">17.6. Discussion Questions</h3>
+<p class="indenthangingN"><strong>1.</strong> ADD does not help with the
+ detailed design of interfaces for the architectural elements it 
+identifies. Details of an interface include what each method does, 
+whether you need to call a single all-encompassing method to perform the
+ work of the element or many methods of finer-grained function, what 
+exceptions are raised on the interface, and more. What are some examples
+ where the specific design of an interface might bring more or less 
+performance, security, or availability to a system? (By the way, if 
+there are quality attribute implications to an interface, you can 
+capture those as annotations on the element.)</p>
+<p class="indenthangingN"><strong>2.</strong> What sets a constraint 
+apart from other (even high-priority) requirements is that it is not 
+negotiable. Should this consideration guide the design process? For 
+example, would it be wise to design to satisfy all of the constraints 
+before worrying about other ASRs?</p>
+<p class="indenthangingN"><strong>3.</strong> In discussion question 4 of <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch16.html#ch16">Chapter 16</a>
+ you were asked to create a utility tree for an ATM. Now choose the two 
+most important ASRs from that utility tree and create a design fragment 
+using the ADD method employing and instantiating a pattern.</p>
+<div class="annotator-outer annotator-viewer annotator-hide viewer">
+  <ul class="annotator-widget annotator-listing"></ul>
+</div><div class="annotator-editor-wrapper"><div class="annotator-outer annotator-editor annotator-hide">
+  <h3 class="title">Highlight</h3><form class="annotator-widget">
+    <ul class="annotator-listing"><li class="annotator-item"><textarea maxlength="750" placeholder="Add a note (optional)" id="annotator-field-8"></textarea></li></ul>
+    <div class="annotator-controls">
+      <a href="#cancel" class="annotator-cancel button">Cancel</a>
+<a href="#save" class="annotator-save annotator-focus button positive">Save</a>
+    </div>
+  </form>
+</div></div><div style="display: none;" class="annotator-adder"><button><span></span></button></div></div></div>
+
+
+
+  <div class="t-sbo-prev sbo-prev sbo-nav-bottom">
+  
+    
+      
+        <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch16.html" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">16. Architecture and Requirements</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-bottom">
+  
+    
+      
+        <a href="https://www.safaribooksonline.com/library/view/software-architecture-in/9780132942799/ch18.html" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">18. Documenting Software Architectures</div>
+        </a>
+    
+  
+  </div>
+
+</section>
+    <div class="reading-controls-bottom">
+      <ul class="interface-controls js-bitlist">
+        <li class="queue-control">
+            <button title="Add to Queue" aria-label="Add to Queue" data-for-analytics="9780132942799:ch17.html" type="button" class="rec-fav ss-queue js-queue js-current-chapter-queue" data-queue-endpoint="/api/v1/book/9780132942799/chapter/ch17.html">
+      <span>Add to Queue</span>
+  </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="js-related-container related"></div>
+<section class="sbo-saved-archives"></section>
+
+
+
+          
+          
+  
+
+
+
+
+
+    
+    
+      <div id="js-subscribe-nag" class="subscribe-nag clearfix trial-panel  collapsed slideUp">
+        <a href="#" class="js-toggle-nag ss-navigateup" title="Toggle open or close footer"></a>
+        <div class="sample-message">
+          <p class="usage-data t-collapsed-text">Enjoy Safari? 
+            <a href="https://www.safaribooksonline.com/subscribe/">
+              Subscribe Today
+              
+            </a>
+          </p>
+          
+
+        <div class="expanded">
+          <h2>You have 10 days left in your trial, Aejunknaja. </h2>
+          <p class="t-expanded-text">Safari is your trusted guide for building a remarkable career. We hope you've been enjoying your trial—ready to join?</p>
+          <a href="https://www.safaribooksonline.com/subscribe/" class="bigbutton positive">
+            Subscribe Today
+            
+          </a>
+          
+            <footer style="padding-bottom: 69.2px;" class="pagefoot js-pagefoot">
+    <div class="wrapper">
+      <a href="https://www.safaribooksonline.com/" id="logo">Safari</a>
+      <nav>
+        <a href="https://www.safaribooksonline.com/public/support" class="full-support">Support</a> /
+        <a href="https://www.safaribooksonline.com/contact/">Contact Us</a> /
+        <a href="https://www.safaribooksonline.com/blog/">Blog</a>
+      </nav>
+      <div id="legal">
+        <ul>
+          <li>© 2016 <a class="copyright" href="https://www.safaribooksonline.com/">Safari</a> <br class="mobile-support"> <a href="https://www.safaribooksonline.com/terms/">Terms of Service</a> </li>
+          <li><a href="https://www.safaribooksonline.com/membership-agreement/">Membership Agreement</a></li>
+          <li><a href="https://www.safaribooksonline.com/privacy/">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+
+
+        
+      </div>
+      
+
+
+
+  <footer style="padding-bottom: 69.2px;" class="pagefoot t-pagefoot">
+    <a style="display: none;" href="#" class="icon-up"><div class="visuallyhidden">Back to top</div></a>
+    <ul class="js-footer-nav">
+      
+        <li><a class="t-recommendations-footer" href="https://www.safaribooksonline.com/r/">Recommended</a></li>
+      
+      <li><a class="t-queue-footer" href="https://www.safaribooksonline.com/s/">Queue</a></li>
+      
+        <li><a class="t-recent-footer" href="https://www.safaribooksonline.com/recent/">Recent</a></li>
+        <li><a class="t-topics-footer" href="https://www.safaribooksonline.com/topics?q=*&amp;limit=21">Topics</a></li>
+      
+      
+        <li><a class="t-tutorials-footer" href="https://www.safaribooksonline.com/tutorials/">Tutorials</a></li>
+      
+      <li><a class="t-settings-footer js-settings" href="https://www.safaribooksonline.com/u/">Settings</a></li>
+      <li><a href="https://www.safaribooksonline.com/blog/">Blog</a></li>
+      <li class="full-support"><a href="https://www.safaribooksonline.com/public/support">Support</a></li>
+      <li><a href="https://community.safaribooksonline.com/">Feedback</a></li>
+      <li><a href="https://www.safaribooksonline.com/accounts/logout/">Sign Out</a></li>
+    </ul>
+    <span class="copyright">© 2016 <a href="https://www.safaribooksonline.com/" target="_blank">Safari</a>.</span>
+    <br class="mobile-support">
+    <a href="https://www.safaribooksonline.com/terms/">Terms of Service</a> /
+    <a href="https://www.safaribooksonline.com/privacy/">Privacy Policy</a>
+  </footer>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationTime":146,"agent":"js-agent.newrelic.com/nr-768.min.js","applicationID":"3275661","errorBeacon":"bam.nr-data.net","beacon":"bam.nr-data.net","queueTime":0,"transactionName":"YgdaZ0NSW0cEB0RdWltNfkZfUEFdCgofXFBHDVYdR1pQQxZeRl1QQj1aWkU=","licenseKey":"510f1a6865"}</script>
+
+
+    
+
+    <script src="17.%20Designing%20an%20Architecture_files/a_002" charset="utf-8"></script>
+    <script src="17.%20Designing%20an%20Architecture_files/a" charset="utf-8"></script>
+    
+      <script src="17.%20Designing%20an%20Architecture_files/require.js"></script>
+      <script>
+        require(["/static/js/pages/_config.1113c6153f5e.js"], function (common) {
+          require(["/static/js/nest/_init.1198db94d0a6.js"]);
+        });
+      </script>
+    
+    
+  
+  
+  
+  <script> // <![CDATA[
+    var g = {
+      position_cache: {
+        
+          "chapter": "/api/v1/book/9780132942799/chapter/ch10.html",
+          "book_id": "9780132942799",
+          "chapter_uri": "ch10.html",
+          "position": 0,
+          "user_uuid": "10f9e41b-1414-4ac1-bc80-973364aac808",
+          "next_chapter_uri": "/library/view/software-architecture-in/9780132942799/ch11.html"
+        
+      },
+      title: "Software Architecture in Practice, Third Edition",
+      author_list: "Rick Kazman, Paul Clements, Len Bass",
+      format: "book",
+      source: "application/epub+zip",
+      is_system_book: true,
+      is_public: false,
+      loaded_from_server: true,
+      allow_scripts: false,
+      has_mathml: false
+    };
+    // ]]>
+  </script>
+  
+  
+
+
+  
+  <script>
+    
+      
+        
+
+        
+          
+            window.PUBLIC_ANNOTATIONS = true;
+          
+        
+
+      
+
+      
+        window.MOBILE_PUBLIC_ANNOTATIONS = false;
+      
+
+    
+
+  </script>
+
+  
+    
+  
+
+
+    
+    
+
+
+  
+
+<div style="top: 200px; left: 1450px;" class="font-flyout"><div class="font-controls-panel">
+	<div class="nightmodes">
+		<ul>
+			<li class="day"><a href="#" id="day-mode" title="Day Mode">
+				<i class="fa fa-sun-o"></i>
+				<span>Day Mode</span></a></li>
+			<li class="cloudy"><a href="#" id="cloudy-mode" title="Cloudy Mode">
+				<i class="fa fa-cloud"></i>
+				<span>Cloud Mode</span>
+			</a></li>
+			<li class="night"><a href="#" id="night-mode" title="Night Mode">
+				<i class="fa fa-moon-o"></i>
+				<span>Night Mode</span>
+			</a></li>
+		</ul>
+	</div>
+
+	<div class="font-resizer resizer">
+		<div class="draggable-containment-wrapper">
+			<i class="fa fa-font left"></i>
+			<span style="width: 50%;" class="filler"></span>
+			<div style="position: relative; left: 80px;" id="js-font-size-draggable" class="draggable ui-widget-content ui-draggable ui-draggable-handle"></div>
+			<i class="fa fa-font right"></i>
+		</div>
+	</div>
+
+	<div class="column-resizer resizer">
+		<div class="draggable-containment-wrapper">
+			<i class="fa fa-compress left"></i>
+			<span style="width: 50%;" class="filler"></span>
+			<div style="position: relative; left: 80px;" id="js-column-size-draggable" class="draggable ui-widget-content ui-draggable ui-draggable-handle"></div>
+			<i class="fa fa-expand right"></i>
+		</div>
+	</div>
+
+	<a id="reset" class="button" href="#">Reset</a>
+</div>
+</div><div class="annotator-notice"></div></body></html>
