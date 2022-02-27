@@ -41,7 +41,7 @@ Recommended Lecture:
 
 ### 06-Apache Kafka: Event-Streaming Platform
 
-- (2 hrs - class) Tue 2022-02-15.mp4
+- (2 hrs - class) Tue 2022-02-15.mp4 [slide](https://drive.google.com/file/d/1RlpQsi1Z9vHmmfCh9sFMG7hgwoneFHx8/view?usp=sharing)
 - (1.5 hrs) Apache Kafka Fundamentals [classroom](https://classroom.google.com/u/1/c/NDUxNzI4OTM3MTgw/m/NDY5OTYxMzA1Nzg0/details)
 
 ### Hand on #4
