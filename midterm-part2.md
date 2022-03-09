@@ -3,6 +3,11 @@
 ## Table of Contents <!-- omit in toc -->
 
 - [Frameworks Comparison (React, Vue, Svelte)](#frameworks-comparison-react-vue-svelte)
+  - [React](#react)
+  - [Vue](#vue)
+  - [Svelte](#svelte)
+  - [Scenario](#scenario)
+  - [Reactive Programming](#reactive-programming)
 - [Event-Driven Architecture (Apache Kafka)](#event-driven-architecture-apache-kafka)
   - [05-Event-Driven Architecture (EDA)](#05-event-driven-architecture-eda)
   - [Hand on #3](#hand-on-3)
@@ -24,6 +29,65 @@ Recommended Lecture:
 - (37 mins) Rethinking reactivity/Reactive programming by Rich Harris [video](https://www.youtube.com/watch?v=AdNJ3fydeao) and [slide](https://rethinking-reactivity.surge.sh)
 - (29 mins) The Return of 'Write Less, Do More' by Rich Harris [video](https://www.youtube.com/watch?v=BzX4aTRPznoo)
 - (20 mins) Have Single-Page Apps Ruined the Web? [video](https://www.youtube.com/watch?v=860d8usGC0o), [assignment-6](<Assignments/Assignment%206%20Have%20Single-Page%20Apps%20(SPA)%20Ruined%20the%20Web_.pdf>)
+
+### React
+
+use jsx
+
+Pros:
+
+- Easily manipulate the dom using its state
+- developer community is massive
+- Can almost guarantee that somebody has already solves the problem in stack exchange
+
+Cons:
+
+- you have to work with new language if you're used to vanilla html, css, and js
+- The framework does very little support for you because goal of react is to be as lightweight and as minimalist as possible
+- Many things in react are forced to do from scratch and need to import from outside library
+- Routing is not done in react itself but it's come from external library called "React Router"
+- Not many suggestion for new developer
+- Re-rendering everything when react detected change in component.
+
+### Vue
+
+Pros:
+
+- Giving us a lot of suggestions on how they want us to set up the project
+  - Routing: built in natively
+  - Styling: Vue giving you the suggestions on how to do it
+  - Stage management: built in natively (this included animations and transitions)
+- Managing state in a way that reactive
+- Vue's documentation far better than react
+
+Cons:
+
+- Limits your versatility (forcing their own way of doing things)
+- Community for Vue is much smaller than react
+- If you encounter problem there might be a slight chance they've never seen before
+
+### Svelte
+
+Pros:
+
+- Code can be a lot more intuitive for vanilla html, css, js developer
+- When we run build its create build folder files that can be more effective to run inside of the user's browser
+- Svelte is not a framework but it's a compiler so there's no baggage when build
+- Documentation is very good and offer their own sandbox that you can work out of
+
+Cons:
+
+- Much smaller developer community than Vue and React
+
+### Scenario
+
+- Get a job or build enterprise level applications => React
+- Something easy to learn and a lot more intuitive => Vue
+- Performance is major concern for you => Svelte
+
+### Reactive Programming
+
+Forward referencing (update only the things that has change rather than re-rendering everything)
 
 ## Event-Driven Architecture (Apache Kafka)
 
