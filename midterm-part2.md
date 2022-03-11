@@ -28,7 +28,7 @@ Recommended Lecture:
 - (8 mins) Comparing Svelte vs React vs Vue [video](https://www.youtube.com/watch?v=LSiV8A9Zqzw&t=4s)
 - (37 mins) Rethinking reactivity/Reactive programming by Rich Harris [video](https://www.youtube.com/watch?v=AdNJ3fydeao) and [slide](https://rethinking-reactivity.surge.sh)
 - (29 mins) The Return of 'Write Less, Do More' by Rich Harris [video](https://www.youtube.com/watch?v=BzX4aTRPznoo)
-- (20 mins) Have Single-Page Apps Ruined the Web? [video](https://www.youtube.com/watch?v=860d8usGC0o), [assignment-6](<Assignments/Assignment%206%20Have%20Single-Page%20Apps%20(SPA)%20Ruined%20the%20Web_.pdf>)
+- (20 mins) Have Single-Page Apps Ruined the Web? [video](https://www.youtube.com/watch?v=860d8usGC0o), [assignment-6](<Assignments/Assignment%206%20Have%20Single-Page%20Apps%20(SPA)%20Ruined%20the%20Web.pdf>)
 
 ### React
 
