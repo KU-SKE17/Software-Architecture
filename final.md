@@ -14,12 +14,7 @@
   - [Teachers recommend part 2](#teachers-recommend-part-2)
 - [Hadoop, MapReduce](#hadoop-mapreduce)
   - [Teachers recommend part 3](#teachers-recommend-part-3)
-  - [Big Data](#big-data)
   - [Hadoop](#hadoop)
-    - [Store](#store)
-    - [Process](#process)
-    - [Management](#management)
-    - [Other System](#other-system)
   - [MapReduce](#mapreduce)
 
 ## Microservice, Docker, Kubernetes
@@ -35,12 +30,14 @@
 
 ### Microservice Architecture
 
-- [(summary)](https://microservices.io/) - What are microservices?
+- [(article)](https://microservices.io/) - What are microservices?
 - [(article)](https://martinfowler.com/articles/microservices.html), [(26 mins)](https://www.youtube.com/watch?v=wgdBVIX9ifA) - When to change from Monolithic to Microservices
 - [(slide)](final/1%20Intro%20to%20Microservices%20Architecture.pdf), [(20 mins)](https://www.youtube.com/watch?v=gfWr2_H39N0) - Introduction to Microservices Architecture
 - [(slide)](final/2%20State%20of%20the%20Art%20in%20Microservices.pdf), [(1 hr 16 mins)](https://www.youtube.com/watch?v=gfWr2_H39N0) - State of the Art in Microservices (by Adrian Cockcroft)
 
 #### Domain-Driven Design
+
+summary -> [here!](final/ddd.md)
 
 - Presentations by Eric Evans
 
@@ -96,79 +93,11 @@ Parallel programming
 1. [(30 mins)](https://www.youtube.com/watch?v=iANBytZ26MI) - What is Hadoop?
 2. [(16 mins)](https://www.youtube.com/watch?v=AZovvBgRLIY) - Apache Hadoop & Big Data 101: The Basics
 
-### Big Data
-
-5V's
-
-- Volume: lot of data
-- Velocity: many generated in high speed
-- Variety: data types
-- Veracity: accuracy, trustworthiness
-- Value: disease detection, better treatment, reduced cost
-
-Pro: after processed and analyzed it can benefit to predict something in advance (ex. hurricane sandy in 2012, U.S.)
-
 ### Hadoop
 
 a framework for store and process big data --from many channels/sources
 
-#### Store
-
-How: `HDFS` - Hadoop Distributed File System
-
-1. [center] store all data in HDFS
-2. [break down] break down to smaller size, store in multiple machines(commodity hardware)/racks
-   - a rack has many machines
-   - a machine has many nodes
-   - a node (default 128 MB) preforms read/write/store
-     - name node (head): store metadata, and manage data nodes
-     - data node (slave node): send signals ('heartbeats') to name node--gives its current status
-3. [backup] each machine have different sets of data copy from another machines
-
-Why: HDFS
-
-- fault tolerant
-- data security
-- scalability
-- flexibility (can store any data types)
-
-#### Process
-
-How: `MapReduce` (for basic version: [here!](#mapreduce))
-
-1. input data: divided to splits
-2. map(): process each split to product an output
-3. shuffle and sort: grouping the outputs
-4. reduce(): aggregate grouped outputs and process function to get result from each group
-5. output data: combine the results together
-
-Why: Hadoop's MapReduce
-
-- good load balancing
-- re-execution of tasks (auto when a task fails)
-- simple programming model
-
-#### Management
-
-How: `YARN`
-
-responsible to process job requests and allocate resources by the consist of
-
-- Resource Manage (RM) - get job requests from Client
-- Node Manage (NM) - update status to RM
-- Application Master (AM) - requests container from RM, and run container allocated by NM (contact NM)
-
-Why: YARN
-
-- job schedule
-- multitenancy: available for new MapReduce version
-- scalability: node can be increased
-
-#### Other System
-
-go for it on [Youtube](https://www.youtube.com/watch?v=VmO0QgPCbZY&t=7913s)
-
-![hadoop-ecosystem](https://i.ibb.co/Br0BFQM/hadoop.png)
+summary -> [here!](final/hadoop.md#hadoop)
 
 ### MapReduce
 
