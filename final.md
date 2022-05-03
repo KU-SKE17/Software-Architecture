@@ -69,6 +69,8 @@ summary -> [here!](final/ddd.md)
 
 [(Assignment 8)](Assignments/Assignment%208%20Kubernetes%20Lab.pdf) - Screenshots of Nana Full Kubernetes Course [(3 hr 35 mins)](https://youtube.com/watch?v=X48VuDVv0do)
 
+Pros & Cons: [(article1)](https://devspace.cloud/blog/2019/10/31/advantages-and-disadvantages-of-kubernetes), [(article2)](https://www.peerspot.com/products/kubernetes-pros-and-cons)
+
 ## Blockchain
 
 BitCoin and Ethereum Smart Contract (decentralized app)
